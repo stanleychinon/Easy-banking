@@ -1,0 +1,52 @@
+/* nav button{
+    background-color: blue;
+}
+
+nav ul li a{
+    color: red;
+}
+
+.about-link{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#jjj{
+    color: brown;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+a{
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffff;
+    padding: 20px 80px;
+}
+
+nav a{
+    color: #96B4D4;
+}
+
+nav ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+button {
+    background-color: #31D069;
+    padding: 10px 16px;
+    border-radius: 50px;
+    border: none;
+    color: aliceblue;
+}
